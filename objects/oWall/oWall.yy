@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBlock",
-    "path": "sprites/sBlock/sBlock.yy",
+    "name": "sWall",
+    "path": "sprites/sWall/sWall.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBlock",
+  "name": "oWall",
   "tags": [],
   "resourceType": "GMObject",
 }
