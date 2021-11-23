@@ -13,10 +13,9 @@ vsp += grv;
 
 if (place_meeting(x, y + 1, oWall) && key_jump) {
 	vsp = jump_height;
+	audio_play_sound(sndJump, 1, false);
 }
 
-if(key_jump == true){
-}
 
 if (place_meeting(x + hsp, y, oWall)) {
 	while(!place_meeting(x + sign(hsp), y, oWall)) {
@@ -53,4 +52,8 @@ if (!place_meeting(x, y + 1, oWall)) {
 
 if (hsp != 0) {
    image_xscale = sign(hsp);
+}
+
+if (!instance_exists(oCake)) {
+	room_goto_next();
 }
