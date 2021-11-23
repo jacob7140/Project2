@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBlock",
-    "path": "sprites/sBlock/sBlock.yy",
+    "name": "sCake",
+    "path": "sprites/sCake/sCake.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oBlock",
+  "name": "oCake",
   "tags": [],
   "resourceType": "GMObject",
 }

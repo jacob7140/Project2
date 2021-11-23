@@ -1,10 +1,23 @@
 {
   "resources": [
-    {"id":{"name":"oBlock","path":"objects/oBlock/oBlock.yy",},"order":0,},
+    {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},"order":0,},
+    {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":3,},
+    {"id":{"name":"oCake","path":"objects/oCake/oCake.yy",},"order":2,},
+    {"id":{"name":"sEnemyAttack1","path":"sprites/sEnemyAttack1/sEnemyAttack1.yy",},"order":1,},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":0,},
+    {"id":{"name":"sLife","path":"sprites/sLife/sLife.yy",},"order":9,},
+    {"id":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},"order":1,},
+    {"id":{"name":"sndGame","path":"sounds/sndGame/sndGame.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
-    {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"sndJump","path":"sounds/sndJump/sndJump.yy",},"order":0,},
+    {"id":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},"order":4,},
+    {"id":{"name":"oController","path":"objects/oController/oController.yy",},"order":3,},
+    {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"sCake","path":"sprites/sCake/sCake.yy",},"order":4,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
+    {"id":{"name":"sWin","path":"sprites/sWin/sWin.yy",},"order":10,},
+    {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -20,7 +33,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -37,6 +51,8 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Enemy.yy","order":7,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Player.yy","order":8,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -46,7 +62,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "Project2",
