@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.3,
+  "volume": 0.45,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndGame.mp3",
-  "duration": 15.2294,
+  "soundFile": "sndAmbient.mp3",
+  "duration": 113.84,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndGame",
+  "name": "sndAmbient",
   "tags": [],
   "resourceType": "GMSound",
 }

@@ -2,9 +2,6 @@ key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);
 key_right = keyboard_check(ord("D")) || keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("W"));
 
-if (keyboard_check(ord("R"))){
-	room_restart();
-}
 
 var move = key_right - key_left;
 
@@ -57,3 +54,17 @@ if (hsp != 0) {
 if (!instance_exists(oCake)) {
 	room_goto_next();
 }
+
+if (keyboard_check_pressed(ord("L"))) {
+	lives += 1;
+}
+
+if (!instance_exists(oCake)) {
+	room_goto_next();
+}
+
+if (keyboard_check_pressed(ord("Z"))){
+	instance_create_layer(x + 10, y + 15, "Instances", oKnife);
+}
+
+if (y > 1000) { instance_destroy() }
