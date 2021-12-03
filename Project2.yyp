@@ -12,7 +12,6 @@
     {"id":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},"order":1,},
     {"id":{"name":"sndIntro","path":"sounds/sndIntro/sndIntro.yy",},"order":1,},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},"order":2,},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},"order":4,},
     {"id":{"name":"sndJump","path":"sounds/sndJump/sndJump.yy",},"order":0,},
@@ -22,9 +21,11 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"sCake","path":"sprites/sCake/sCake.yy",},"order":4,},
     {"id":{"name":"sWin","path":"sprites/sWin/sWin.yy",},"order":10,},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":2,},
     {"id":{"name":"oKnife","path":"objects/oKnife/oKnife.yy",},"order":6,},
     {"id":{"name":"sTitle","path":"sprites/sTitle/sTitle.yy",},"order":12,},
     {"id":{"name":"oSoundControl","path":"objects/oSoundControl/oSoundControl.yy",},"order":5,},
+    {"id":{"name":"sPlayer_move","path":"sprites/sPlayer_move/sPlayer_move.yy",},"order":1,},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},"order":0,},
   ],
   "Options": [
@@ -74,7 +75,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.4.583",
   },
   "resourceVersion": "1.4",
   "name": "Project2",
