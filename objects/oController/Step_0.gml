@@ -2,11 +2,8 @@ if (keyboard_check_pressed(ord("R"))) {
 	game_restart();
 }
 
-if (room = rm_Win) {
-	instance_destroy();
+if (room = rm_Title || room = rm_lose || room = rm_Win) {
+	oController.visible = false;
+} else {
+	oController.visible = true;
 }
-
-if (lives <= 0) { 
-	//global.game_over = true 
-	room_goto(rm_lose);
-	}

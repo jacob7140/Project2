@@ -1,4 +1,4 @@
-width = 450;
+width = 600;
 height = 150;
 
 text = "Click here"

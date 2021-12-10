@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sKnife",
-    "path": "sprites/sKnife/sKnife.yy",
+    "name": "sKinfe",
+    "path": "sprites/sKinfe/sKinfe.yy",
   },
   "solid": false,
   "visible": true,

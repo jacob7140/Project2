@@ -1,4 +1,4 @@
-width = 550;
+width = 412;
 height = 80;
 
 text = "Back"
