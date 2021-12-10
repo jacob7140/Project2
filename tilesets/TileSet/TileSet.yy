@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "TileSet",
-    "path": "sprites/TileSet/TileSet.yy",
+    "name": "sTileSet",
+    "path": "sprites/sTileSet/sTileSet.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
@@ -23411,7 +23411,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TileSet1",
+  "name": "TileSet",
   "tags": [],
   "resourceType": "GMTileSet",
 }
