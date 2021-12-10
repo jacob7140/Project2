@@ -4,5 +4,5 @@
 //with (other) {
 //	instance_destroy()
 //}
-instance_destroy()
-lives -= 1;
+//instance_destroy()
+//lives -= 1;

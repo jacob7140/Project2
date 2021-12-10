@@ -31,7 +31,7 @@ if (place_meeting(x, y + vsp, oWall)) {
 y += vsp;
 
 if (!place_meeting(x, y + 1, oWall)) {
-    sprite_index = sPlayer_move;
+    //sprite_index = s_playerMove;
 	image_speed = 0;
 	 if (sign(vsp) > 0) {
 	     image_index = 1;
@@ -43,7 +43,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 	if (hsp == 0) {
 	    sprite_index = sPlayer;
 	} else {
-		sprite_index = sPlayer_move;
+		//sprite_index = s_playerMove;
 	}
 }
 
