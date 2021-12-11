@@ -13,3 +13,4 @@ CHEATS:
 "L" = 3 more lives
 "R" = Game restart
 "N" = go to next room
+"Y" = Room reset
