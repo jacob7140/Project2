@@ -11,5 +11,5 @@ Press A to move left, D to move right , space to jump, and Z to attack.
 
 CHEATS:
 "L" = 3 more lives
-"R" = Gme restart
+"R" = Game restart
 "N" = go to next room
